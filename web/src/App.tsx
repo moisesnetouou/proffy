@@ -1,8 +1,8 @@
-import { Landing } from './pages/Landing';
+import MainRoutes from './routes';
 import './styles/global.css';
 
 export function App() {
   return (
-    <Landing />
+    <MainRoutes />
   );
 }
