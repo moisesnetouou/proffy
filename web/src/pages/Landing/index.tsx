@@ -1,7 +1,7 @@
 import './styles.css';
 
 import logoImg from '../../assets/images/logo.svg';
-import ladingImg from '../../assets/images/landing.svg'
+import landingImg from '../../assets/images/landing.svg'
 
 import studyIcon from '../../assets/images/icons/study.svg'
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg'
@@ -16,7 +16,7 @@ export function Landing(){
           <h2>Sua plataforma de estudos online.</h2>
         </div>
 
-        <img src={ladingImg} alt="Plataforma de estudos" className="hero-image" />
+        <img src={landingImg} alt="Plataforma de estudos" className="hero-image" />
 
         <div className="buttons-container">
           <a href="/#" className="study">
@@ -25,8 +25,8 @@ export function Landing(){
           </a>
 
           <a href="/#" className="give-classes">
-            <img src={giveClassesIcon} alt="Estudar" />
-            Estudar
+            <img src={giveClassesIcon} alt="Dar aulas" />
+            Dar aulas
           </a>
         </div>
 
