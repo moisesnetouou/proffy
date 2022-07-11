@@ -1,9 +1,8 @@
-import React from 'react';
+import { Landing } from './pages/Landing';
+import './styles/global.css';
 
-function App() {
+export function App() {
   return (
-    <h1>Hello World</h1>
+    <Landing />
   );
 }
-
-export default App;
